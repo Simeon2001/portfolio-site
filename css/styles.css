@@ -1,0 +1,79 @@
+.project_name {
+    background-color: blue;
+}
+
+.project_image {
+    background-color: brown;
+}
+
+.link {
+    background-color: yellow;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.project .project_name {
+    flex-grow: 1;
+}
+
+.project .project_image {
+    flex-grow: 2;
+    align-self: flex-end;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    align-content: center;
+}
+
+.project .link {
+    flex-grow: 1;
+}
+
+.otherss {
+    display: flex;
+    align-items: left;
+    list-style: none;
+    justify-content: left;
+}
+
+.otherss .uls {
+    display: flex;
+    gap: 4em;
+}
+
+.otherss .in {
+    position: relative;
+    padding-left: 32em;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2em;
+}
+
+button {
+    color: rgb(102, 93, 235);
+    background-color: rgb(227, 226, 240);
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    
+    margin-top: 38px;
+}
+
+.bee {
+    height: auto;
+    width: 40%;
+}
+
+.bee img {
+    align-self: center;
+}
+
