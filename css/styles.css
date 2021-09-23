@@ -71,9 +71,12 @@ button {
 .bee {
     height: auto;
     width: 40%;
+    
 }
-
-.bee img {
+img .bee {
     align-self: center;
+    justify-self: center;
+
 }
 
+#
