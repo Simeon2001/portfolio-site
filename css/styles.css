@@ -58,7 +58,7 @@
     gap: 2em;
 }
 
-button {
+#code {
     color: rgb(102, 93, 235);
     background-color: rgb(227, 226, 240);
     font-size: 18px;
@@ -68,15 +68,20 @@ button {
     margin-top: 38px;
 }
 
-.bee {
+#bee {
     height: auto;
     width: 40%;
+    position: relative;
+    left: 30%;
+
     
 }
-img .bee {
-    align-self: center;
-    justify-self: center;
-
+#move {
+    position: relative;
+    left: 32%;
 }
 
-#
+#move .next {
+    position: relative;
+    left: 17%;
+}
